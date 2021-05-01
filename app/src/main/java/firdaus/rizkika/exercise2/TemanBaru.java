@@ -24,9 +24,9 @@ public class TemanBaru extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teman_baru);
 
-        txtNama = findViewById(R.id.edtNama);
-        txtTelpon = findViewById(R.id.edttelpon);
-        simpan = findViewById(R.id.bttnSave);
+        txtNama = (TextInputEditText) findViewById(R.id.edtNama);
+        txtTelpon = (TextInputEditText) findViewById(R.id.edttelpon);
+        simpan = (Button) findViewById(R.id.bttnSave);
 
         simpan.setOnClickListener(new View.OnClickListener() {
             @Override

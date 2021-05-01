@@ -50,9 +50,9 @@ public class TemanAdapter extends RecyclerView.Adapter<TemanAdapter.TemanViewHol
 
         public TemanViewHolder(View view) {
             super(view);
-            cardku = view.findViewById(R.id.kartuku);
-            namaText = view.findViewById(R.id.textNama);
-            telponText = view.findViewById(R.id.textTelpon);
+            cardku = (CardView) view.findViewById(R.id.kartuku);
+            namaText = (TextView) view.findViewById(R.id.textNama);
+            telponText = (TextView) view.findViewById(R.id.textTelpon);
         }
     }
 }

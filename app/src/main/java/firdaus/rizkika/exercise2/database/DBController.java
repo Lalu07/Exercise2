@@ -19,7 +19,7 @@ public class DBController extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table teman (id integer primary key, nama text, telepon text)");
+        db.execSQL("create table teman (id integer primary key, nama text, telpon text)");
     }
 
     @Override

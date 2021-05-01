@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         addbutton = findViewById(R.id.floatingButton);
 
         adapter = new TemanAdapter(temanArrayList);
+        BacaData();
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivity.this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
